@@ -3,10 +3,10 @@ import bodyParser from "body-parser";
 import bcrypt from 'bcrypt-nodejs';
 import cors from 'cors';
 import knex  from 'knex';
-import { handleRegister } from '../controllers/register.js';
-import { handleSignin } from '../controllers/signin.js';
-import { handleProfile } from '../controllers/profile.js';
-import { handleImage } from "../controllers/image.js";
+import { handleRegister } from './controllers/register.js';
+import { handleSignin } from './controllers/signin.js';
+import { handleProfile } from './controllers/profile.js';
+import { handleImage } from "./controllers/image.js";
 
 const db = knex({
     client: 'pg',
@@ -35,4 +35,3 @@ app.listen(process.env.PORT || 3000, () => {
 })
 
 console.log(process.env)
-

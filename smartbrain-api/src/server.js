@@ -11,11 +11,11 @@ import { handleImage } from "../controllers/image.js";
 const db = knex({
     client: 'pg',
     connection: {
-      host : '127.0.0.1',
+      host : 'dpg-cfgnd9ta49926dvd2i5g-a.frankfurt-postgres.render.com',
       port : 5432,
-      user : 'postgres',
-      password : '1243',
-      database : 'smartbrain'
+      user : 'smartbrain_e89q_user',
+      password : 'Tz75jMsblF6cyVjv9SZ5BvHqggqOtv0p',
+      database : 'smartbrain_e89q'
     }
 });
 

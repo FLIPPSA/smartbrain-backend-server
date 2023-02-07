@@ -11,10 +11,8 @@ import './App.css';
 window.process = { };
 
 const USER_ID = 'flipp_06p';
-// Your PAT (Personal Access Token) can be found in the portal under Authentification
 const PAT = 'fe0a6faf44ac4907ac389cf933456831';
 const APP_ID = 'FaceRecognitionBrain';
-// Change these to whatever model and image URL you want to use
 const MODEL_ID = 'face-detection'; 
 
 const initialState = {

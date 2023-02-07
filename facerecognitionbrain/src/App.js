@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ParticlesBg from 'particles-bg';
 import FaceRecognition from './Components/FaceRecognition/FaceRecognition';
 import Navigation from './Components/Navigation/Navigation';
-
 import ImageLinkForm from './Components/ImageLinkForm/ImageLinkForm';
 import Rank from './Components/Rank/Rank';
 import Signin from './Components/Signin/Signin';
